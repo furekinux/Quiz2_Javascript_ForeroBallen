@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedéx</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/276264/pokeball-pokemon.svg" type="image/x-icon">
 </head>
 <body>
-    <img class="pokedex" src="https://lh3.googleusercontent.com/drive-storage/AJQWtBMsBSFi0NJvCgdv1_oUP9YMInil23PizR7yPtSCA6LgQyCXg4HlgaL5PkHgw2ImzG9qpaRy7r4EadULYwNd0I7S37OiRrErWa90o2IVZX0QsyI=w1850-h966"/>
+    <img class="pokedex" src="https://media.discordapp.net/attachments/734807438619967499/1233467539506593863/AJQWtBMmELvEB2u6Azqs3tX1NDYJPB8mo0LwKD4_5zUZu20DAVEeew8F7rm0gqGf_H5RI2M4VWAHu8jUSXywQcJ1a5QDRiYupKfJfs2OmivnMLC1ZfMw1920-h912.png?ex=662d33aa&is=662be22a&hm=01721e5c3172b0c66d133891a443a60e9fe23306a8bec16fde5860e781577269&=&format=webp&quality=lossless&width=395&height=593"/>
+        <div id="showUp">Who?</div>
+        <input id="pokeId" type="text" placeholder="Name or Number"></input>
+        <button onclick="fetchPoke()" id="myBtn" type="submit" hidden></button>
     
-    <input id="pokeId" type="text" placeholder="Name or Number"></input>
-    <button onclick="fetchPoke()" id="myBtn" type="submit" hidden></button>
     <div class="buttons">
         <button id="prev">Prev < </button>
         <button id="next">> Next</button>
