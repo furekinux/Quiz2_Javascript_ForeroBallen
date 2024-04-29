@@ -96,6 +96,19 @@ input.addEventListener("keypress", function(event) {
     document.getElementById("myBtn").click();
   }
 });
+document.addEventListener("keydown", function(event) {
+  if (event.key === "ArrowLeft") {
+    event.preventDefault();
+    document.getElementById("prev").click();
+  }
+});
+document.addEventListener("keydown", function(event) {
+  if (event.key === "ArrowRight") {
+    event.preventDefault();
+    document.getElementById("next").click();
+  }
+});
+
 
 function displayPoke(data){
   let Pokemon = document.getElementById("showUp");
