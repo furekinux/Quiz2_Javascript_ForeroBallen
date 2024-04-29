@@ -8,15 +8,15 @@
     <link rel="shortcut icon" href="https://www.svgrepo.com/show/276264/pokeball-pokemon.svg" type="image/x-icon">
 </head>
 <body>
-    <img class="pokedex" src="https://media.discordapp.net/attachments/734807438619967499/1233467539506593863/AJQWtBMmELvEB2u6Azqs3tX1NDYJPB8mo0LwKD4_5zUZu20DAVEeew8F7rm0gqGf_H5RI2M4VWAHu8jUSXywQcJ1a5QDRiYupKfJfs2OmivnMLC1ZfMw1920-h912.png?ex=662d33aa&is=662be22a&hm=01721e5c3172b0c66d133891a443a60e9fe23306a8bec16fde5860e781577269&=&format=webp&quality=lossless&width=395&height=593"/>
+    <img class="pokedex" src="/storage/img/pokedex.png"/>
         <div id="showUp">Who?</div>
         <div id="sprite"></div>
         <input id="pokeId" type="text" placeholder="Name or Number"></input>
         <button onclick="fetchPoke()" id="myBtn" type="submit" hidden></button>
     
     <div class="buttons">
-        <button onclick="minus_id()" id="prev">Prev < </button>
-        <button onclick="plus_id()" id="next">> Next</button>
+        <button for="pokeId" onclick="minus_id()" id="prev">Prev <</button>
+        <button for="pokeId"  onclick="plus_id()" id="next">> Next</button>
     </div>
 </body>
 <script src="/js/script.js"></script>
